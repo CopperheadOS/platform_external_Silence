@@ -14,13 +14,13 @@
 # limitations under the License.
 #
 
-# Install the prebuilt SMSSecure apk.
+# Install the prebuilt Silence apk.
 
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := SMSSecure
+LOCAL_MODULE := Silence
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MULTILIB := both
 LOCAL_CERTIFICATE := $(DEFAULT_SYSTEM_DEV_CERTIFICATE)
